@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="style.css">
+
+<html>
+
+<head>
+    <title>Lab#3 – Task-1 </title>
+</head>
+
+<body>
+
+    <p>
+        <img src="zero.png" alt="" width="150">
+    <h1 class="name">Student Profile </h1>
+    The introduction paragraph definition is a 
+    paragraph that introduces the topic at the 
+    start of an essay. The introduction paragraph consists of many parts. 
+    Each part is necessary to accomplish the purpose of the paragraph.
+    </p>
+
+    <table id="studentCourses" class="courses">
+        <thead>
+            <tr>
+                <th>Course #</th>
+                <th>Course Name</th>
+                <th>Year Taken</th>
+                <th>Credit Hours</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="row1" class="row">
+                <td>Course 1</td>
+                <td>Information Security</td>
+                <td>2021</td>
+                <td>4 </td>
+            </tr>
+            <tr id="row2" class="row">
+                <td>Course 2</td>
+                <td>Compiler Construction</td>
+                <td>2019</td>
+                <td> 3</td>
+            </tr>
+            <tr id="row3" class="row">
+                <td>Course 3</td>
+                <td>Applied Physics</td>
+                <td>2018</td>
+                <td>4 </td>
+            </tr>
+            <tr id="row4" class="row">
+                <td>Course 4</td>
+                <td>Web Engineering</td>
+                <td>2022</td>
+                <td>2 </td>
+            </tr>
+
+        </tbody>
+    </table>
+    </br>
+    <div class="bttns">
+        <input id="addTableBorder" type="button" value="Add Table Border" /><br>
+        <input id="addnewcourse" type="button" value="Add new Course" onclick="addNewCourse()" ; /> <br>
+        <input id="newupdate" type="button" value="Update Course" onclick="updateCourse()" ; /><br>
+        <input id="deleteCourse" type="button" value="Delete Course" onclick="deleteCourse()" ; /><br>
+        <input type="button" value="Remove All New Course" onclick="deleteAllCourses()" ; />
+    </div>
+    <script src="index.js"></script>
+    
+</body>
+
+
+</html>
